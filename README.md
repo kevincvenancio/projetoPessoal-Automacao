@@ -1,5 +1,5 @@
 
-# 🛍️ Automação de Indicadores - Projeto OnePage
+# Automação de Indicadores - Projeto OnePage
 
 ## 📌 Objetivo
 
@@ -35,15 +35,14 @@ Ao final do processo, o sistema deve enviar:
 
 - Python 3
 - Pandas
-- OpenPyXL
 - smtplib / email (bibliotecas para envio de e-mails)
-- Jupyter Notebook
+- Pathlib
 
 ## 🚀 Como Executar
 
 1. Instale os requisitos:
    ```bash
-   pip install pandas openpyxl
+   pip install pandas pathlib
    ```
 
 2. Atualize os arquivos com dados reais (ou de teste).
