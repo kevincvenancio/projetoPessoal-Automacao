@@ -27,7 +27,7 @@ dia_indicador = vendas["Data"].max()
 
 # Salvar a planilha na pasta de backup
 
-caminho_backup = pathlib.Path(r"Backup Arquivos Lojas")
+caminho_backup = pathlib.Path(r"Backup Arquivos Lojas") # ----> Crie uma pasta com esse nome dentro do seu projeto (se necessário)
 
 arquivos_pasta_backup = caminho_backup.iterdir() # ----> []
 lista_nomes_backup = [arquivo.name for arquivo in arquivos_pasta_backup]
